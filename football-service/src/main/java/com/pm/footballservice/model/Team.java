@@ -1,6 +1,10 @@
 package com.pm.footballservice.model;
 
-public class Team {
+import java.io.Serializable;
+
+public class Team implements Serializable {
+
+    private static final long serialVersionUID = 1L;
     private int id;
     private String name;
 
